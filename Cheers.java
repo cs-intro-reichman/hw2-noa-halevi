@@ -1,4 +1,4 @@
-// Prints a crowd cheering output.
+
 public class Cheers {
         public static void main(String[] args) {
 
@@ -12,14 +12,14 @@ public class Cheers {
                         System.out.println("Give me an " + userChar + ": " + userChar + "!" );
                        
                 } else {
-                        System.out.println("Give me a " + userChar + ": " + userChar +"!" );
+                        System.out.println("Give me a  " + userChar + ": " + userChar +"!" );
                 }
                         
                 }
 
-                {
-                        System.out.println("What does that spell?");  
-                }
+                
+         System.out.println("What does that spell?");  
+                
                 
                 for (int j = 0; j < number; j++) {
                         System.out.println(s + "!!!");
@@ -28,4 +28,4 @@ public class Cheers {
             }
         
 
-        }
+}        
