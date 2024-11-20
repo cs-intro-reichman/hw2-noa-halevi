@@ -8,16 +8,19 @@ public class Collatz {
 		for(int seed = 1; seed <= userNum; seed++){
 			int currentNum = seed;
 			int steps = 0;
+			System.out.print(currentNum + " ");
+
 			while (currentNum != 1) {
-				System.out.print(currentNum + " "); 
+			
 				if (currentNum % 2 == 0) { 
 					currentNum = currentNum / 2;
 				} else { 
 					currentNum = 3 * currentNum + 1;
 				}
+				System.out.print(currentNum + " ");
 				steps++;
 				}
-				System.out.println(1 + " (" + (steps + 1) + ")");	
+				System.out.println(" (" + (steps + 1) + ")");	
 		} 	
 		System.out.println("Every one of the first " + userNum + " hailstone sequences reached 1.");
 
@@ -26,3 +29,8 @@ public class Collatz {
 		}
     }
 }
+
+	
+
+
+
