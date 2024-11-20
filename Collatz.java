@@ -1,6 +1,4 @@
-
-
-	
+// Demonstrates the Collatz conjecture.
 public class Collatz {
 	public static void main(String args[]) {
 	
@@ -19,7 +17,7 @@ public class Collatz {
 				System.out.print(currentNum + " ");
 				steps++;
 			}	
-			
+
 			while (currentNum != 1) {
 
 				if (currentNum % 2 == 0) { 
@@ -30,7 +28,7 @@ public class Collatz {
 				System.out.print(currentNum + " ");
 				steps++;
 				}	
-				System.out.println(" (" + (steps + 1) + ")");	
+				System.out.println("(" + (steps + 1) + ")");	
 		} 	
 		System.out.println("Every one of the first " + userNum + " hailstone sequences reached 1.");
 
@@ -41,9 +39,6 @@ public class Collatz {
 }
 
 	
-
-
-
 
 
 
